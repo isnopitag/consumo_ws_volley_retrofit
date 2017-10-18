@@ -80,7 +80,7 @@ public class Tecnos extends AppCompatActivity implements Response.Listener<Strin
                 tecno.setIdTecno(objJSONTecno.getInt("id_institucion"));
                 tecno.setNombreTecno(objJSONTecno.getString("institucion"));
                 tecno.setNombreCortoTecno(objJSONTecno.getString("nombre_corto"));
-                tecno.setLogoTecno(objJSONTecno.getString("logotiopo"));
+                tecno.setLogoTecno(objJSONTecno.getString("logotipo"));
                 listaTecnos.add(tecno);
             }
             adaptador = new TecnosAdapter(listaTecnos,this);
