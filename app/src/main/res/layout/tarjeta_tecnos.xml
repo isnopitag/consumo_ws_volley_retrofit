@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/txt_long_name"
             android:layout_toRightOf="@+id/img_logo"
-            android:lekayout_alignParentTop="true"
+            android:layout_alignParentTop="true"
             android:textSize="20sp"
             />
         <TextView
